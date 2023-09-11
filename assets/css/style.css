@@ -1,0 +1,488 @@
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* hero */
+.main .shop-now {
+    background-color: #ECC7CD;
+}
+
+.main .shop-now h4 {
+    word-break: break-word;
+    font-size: 0.8125rem;
+    font-weight: 750;
+    padding: 24px 0px;
+}
+
+.main .shop-now h4 a {
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+
+/* hero */
+.hero .item1 {
+    background: url("../images/home-page/brush.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.hero .item2 {
+    background: url("../images/home-page/cosmetic.avif");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+/* .category  */
+.category h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: #000;
+
+}
+
+.category .buttons {
+    margin-top: 20px;
+}
+
+.category .buttons .btn {
+    padding: 15px 80px;
+    width: 25%;
+    margin: 5px 10px;
+    line-height: 1.2;
+    border-radius: 0px;
+    color: #000000;
+    background-color: #f4f5f7;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    border: 1px solid #f4f5f7;
+}
+
+.category .buttons .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* cherry */
+.cherry {
+    margin: 100px 0px;
+}
+
+.cherry .item1 {
+    background: url("../images/home-page/brush.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.cherry .item2 {
+    background: url("../images/home-page/cosmetic.avif");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+/* .trending */
+.trending p {
+    color: #9b59b6;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.trending .btn {
+    border: 1.5px solid #000;
+    border-radius: 0;
+    width: 100%;
+}
+
+.trending .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* .back-to-school */
+.back-to-school {
+    background: url("../images/home-page/makeup-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 70px 0px;
+    width: auto;
+}
+
+.back-to-school .shop {
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.back-to-school .btn {
+    border: 1.5px solid #000;
+    border-radius: 0;
+    width: 100%;
+}
+
+.back-to-school .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* beauty */
+
+.beauty h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.beauty p {
+    font-size: 0.9125rem;
+}
+
+.beauty span {
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+
+
+.insta-img .img-1 {
+    background: url("../images/home-page/review-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.insta-img .img-1 .text {
+    text-align: center;
+    opacity: 0;
+    transition: all, 0.3s;
+}
+
+.insta-img .img-1:hover:after {
+    opacity: 1;
+}
+
+.insta-img .img-1:hover .text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.insta-img .img-1::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.53);
+    content: "";
+    opacity: 0;
+    z-index: -1;
+    transition: all, 0.3s;
+}
+
+.insta-img .img-2 {
+    background: url("../images/home-page/review-2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.insta-img .img-3 {
+    background: url("../images/home-page/review-3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.insta-img .img-4 {
+    background: url("../images/home-page/review-4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.insta-img .img-5 {
+    background: url("../images/home-page/review-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.insta-img .img-6 {
+    background: url("../images/home-page/review-6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.insta-img .img-7 {
+    background: url("../images/home-page/review-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.insta-img .img-8 {
+    background: url("../images/home-page/review-8.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.insta-img .text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* reward */
+.reward {
+    margin: 100px 0px 0px 0px;
+}
+
+.reward .row {
+
+    background: url("../images/home-page/makeup-1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.reward h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.reward p {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.reward .btn {
+    background-color: #f4f5f7;
+    border-radius: 0;
+    width: 100%;
+}
+
+.reward .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* promotion */
+.promotion {
+    background-color: #d7c6e6;
+    padding: 40px 0px;
+}
+
+.promotion h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.promotion .btn {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.promotion p {
+    margin-top: 15px;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+/* social */
+
+.social .row:nth-child(1) {
+    border-bottom: 1px solid #a2a2a280;
+}
+
+.social a {
+    margin: 0px 10px;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+.social p {
+    margin-top: 15px;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+
+
+/* footer */
+footer .row:nth-child(1) {
+    border-top: 1px solid #a2a2a280;
+}
+
+footer h6 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #000;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* company */
+
+.company .nav-link {
+    border: none;
+    background-color: #EAEAEA;
+    padding-top: 20px;
+}
+
+.company .nav-link a {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px;
+}
+
+.company .last {
+    background-color: #000;
+    height: 10px;
+}
+
+
+/* ingredient */
+.ingredient .item {
+    border: 2px solid #000;
+    padding: 60px 0px;
+    transition: 1s ease-in-out;
+
+}
+
+.ingredient h1 {
+    font-size: 2rem;
+}
+
+
+/* contact */
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+}
+.contact .btn{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 0px;
+}
+
+/* checkout  */
+
+.checkout a:hover{
+    color: #fff;
+}
+.checkout .form-check-input{
+    width: 15px;
+    height: 15px;
+    
+}
+/* login */
+.login .card-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px 14px rgba(91, 91, 91, 0.1);
+}
+
+.login .card-form:hover {
+    transform: translateY(-10px);
+}
+
+
+.login .rows {
+    margin: 60px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.register .rows {
+    margin-top: 20px;
+}
+.login .btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.account {
+    color: #000;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media (max-width: 768px) {
+
+    .hero .more,
+    .cherry .more {
+        padding: 0px 40px;
+    }
+
+    .category .buttons .btn {
+        padding: 15px 80px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {}
+
+
+.modal-footer .btn{
+    background-color: #000;
+    color: #fff;
+    padding: 7px 30px;
+}
